@@ -1,0 +1,222 @@
+{% extends 'layout.html' %}
+{% block content %}
+	
+	<form method="POST" action="" enctype="multipart/form-data" id='nameform'>
+
+	    {{ form.hidden_tag() }}
+		<div class="parent">
+			<div class="ques text-center" id='welcome'>
+				<div class="text-center center">
+					<p>COVID-19 সংক্রান্ত সচেতনতা মূলক কুইজ</p><a href='#q1' class='btn btn-outline-light btn-lg'>শুরু করা যাক</a>
+				</div>
+				<div class="text-center foot">
+					Developer: <a href='#' class='btn btn-outline-light btn-sm'>Shafin Hasnat</a>
+				</div>
+			</div>
+
+
+			<!-- QUESTION STARTS HERE -->
+
+
+			<div class="ques text-center" id='q1'>
+				<div class="text-center center">
+					<p>তরুনদের করোনা ভাইরাস দ্বারা আক্রান্ত হবার সম্ভাবনা নেই</p>
+						<div class="btn-group btn-group-toggle" data-toggle="buttons">
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_1" id="hatchback" autocomplete="off" value="সত্য">
+						   	সত্য
+						   </label>
+
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_1" id="sedan" autocomplete="off" value="মিথ্যা">
+						   	মিথ্যা
+						   </label>
+						</div>
+				</div>
+				<div class="text-center foot">
+					১/১০ <a href='#q2' class='btn btn-outline-light'>পরের প্রশ্ন></a>
+				</div>
+			</div>
+
+
+			<div class="ques" id='q2'>
+				<div class="text-center center">
+					<p>গরম আবহাওয়ার দেশে করোনা ভাইরাস ছড়ানোর সম্ভাবনা কম</p>
+						<div class="btn-group btn-group-toggle" data-toggle="buttons">
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_2" id="hatchback" autocomplete="off" value="সত্য">
+						   	সত্য
+						   </label>
+
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_2" id="sedan" autocomplete="off" value="মিথ্যা">
+						   	মিথ্যা
+						   </label>
+						</div>
+				</div>
+				<div class="text-center foot">
+					২/১০ <a href='#q3' class='btn btn-outline-light'>পরের প্রশ্ন></a></div>
+			</div>
+
+			<div class="ques" id='q3'>
+				<div class="text-center center">
+					<p>আক্রান্ত ব্যক্তির সংস্পর্শে করোনা ভাইরাস ছড়াতে পারে</p>
+						<div class="btn-group btn-group-toggle" data-toggle="buttons">
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_3" id="hatchback" autocomplete="off" value="সত্য">
+						   	সত্য
+						   </label>
+
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_3" id="sedan" autocomplete="off" value="মিথ্যা">
+						   	মিথ্যা
+						   </label>
+						</div>
+				</div>
+				<div class="text-center foot">
+					৩/১০ <a href='#q4' class='btn btn-outline-light'>পরের প্রশ্ন></a></div>
+			</div>
+
+
+			<div class="ques" id='q4'>
+				<div class="text-center center">
+					<p>বিদেশ ভ্রমন না করলে করোনায় আক্রান্ত হবার সম্ভাবনা নেই</p>
+						<div class="btn-group btn-group-toggle" data-toggle="buttons">
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_4" id="hatchback" autocomplete="off" value="সত্য">
+						   	সত্য
+						   </label>
+
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_4" id="sedan" autocomplete="off" value="মিথ্যা">
+						   	মিথ্যা
+						   </label>
+						</div>
+				</div>
+				<div class="text-center foot">
+					৪/১০ <a href='#q5' class='btn btn-outline-light'>পরের প্রশ্ন></a></div>
+			</div>
+
+
+			<div class="ques" id='q5'>
+				<div class="text-center center">
+					<p>স্বপ্নে পাওয়া এবং নবজাতকের দেয়া ওষুধ করোনার প্রতিষেধক</p>
+						<div class="btn-group btn-group-toggle" data-toggle="buttons">
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_5" id="hatchback" autocomplete="off" value="সত্য">
+						   	সত্য
+						   </label>
+
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_5" id="sedan" autocomplete="off" value="মিথ্যা">
+						   	মিথ্যা
+						   </label>
+						</div>
+				</div>
+				<div class="text-center foot">
+					৫/১০ <a href='#q6' class='btn btn-outline-light'>পরের প্রশ্ন></a></div>
+			</div>
+
+
+			<div class="ques" id='q6'>
+				<div class="text-center center">
+					<p>ডাক্তারসহ সর্বস্তরের মানুষের PPE(Personal Protective Equipment) আবশ্যক</p>
+						<div class="btn-group btn-group-toggle" data-toggle="buttons">
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_6" id="hatchback" autocomplete="off" value="সত্য">
+						   	সত্য
+						   </label>
+
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_6" id="sedan" autocomplete="off" value="মিথ্যা">
+						   	মিথ্যা
+						   </label>
+						</div>
+				</div>
+				<div class="text-center foot">
+					৬/১০ <a href='#q7' class='btn btn-outline-light'>পরের প্রশ্ন></a></div>
+			</div>
+
+
+			<div class="ques" id='q7'>
+				<div class="text-center center">
+					<p>অন্তত ২০ সেকেন্ড ধরে সাবান দিয়ে হাত ধুলে করোনা ভাইরাস থেকে রক্ষা পাওয়া যায়</p>
+						<div class="btn-group btn-group-toggle" data-toggle="buttons">
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_7" id="hatchback" autocomplete="off" value="সত্য">
+						   	সত্য
+						   </label>
+
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_7" id="sedan" autocomplete="off" value="মিথ্যা">
+						   	মিথ্যা
+						   </label>
+						</div>
+				</div>
+				<div class="text-center foot">
+					৭/১০ <a href='#q8' class='btn btn-outline-light'>পরের প্রশ্ন></a></div>
+			</div>
+
+
+			<div class="ques" id='q8'>
+				<div class="text-center center">
+					<p>অ্যালকোহল যুক্ত হ্যান্ড স্যানিটাইজার দিয়ে হাত ধুলে করোনা ভাইরাস থেকে রক্ষা পাওয়া যায়</p>
+						<div class="btn-group btn-group-toggle" data-toggle="buttons">
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_8" id="hatchback" autocomplete="off" value="সত্য">
+						   	সত্য
+						   </label>
+
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_8" id="sedan" autocomplete="off" value="মিথ্যা">
+						   	মিথ্যা
+						   </label>
+						</div>
+				</div>
+				<div class="text-center foot">
+					৮/১০ <a href='#q9' class='btn btn-outline-light'>পরের প্রশ্ন></a></div>
+			</div>
+
+
+			<div class="ques" id='q9'>
+				<div class="text-center center">
+					<p>বর্তমান সময়ে অকারণে বাসা থেকে বের হওয়া অনুচিত</p>
+						<div class="btn-group btn-group-toggle" data-toggle="buttons">
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_9" id="hatchback" autocomplete="off" value="সত্য">
+						   	সত্য
+						   </label>
+
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_9" id="sedan" autocomplete="off" value="মিথ্যা">
+						   	মিথ্যা
+						   </label>
+						</div>
+				</div>
+				<div class="text-center foot">
+					৯/১০ <a href='#q10' class='btn btn-outline-light'>পরের প্রশ্ন></a></div>
+			</div>
+
+
+			<div class="ques" id='q10'><div class="text-center center">
+					<p>গরম পানি পান করলে ও গরম পানি দিয়ে গোসল করলে করোনা ভাইরাস থেকে রক্ষা পাওয়া যায়</p>
+						<div class="btn-group btn-group-toggle" data-toggle="buttons">
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_10" id="hatchback" autocomplete="off" value="সত্য">
+						   	সত্য
+						   </label>
+
+						   <label class="btn btn-outline-light">
+						   <input type="radio" name="q_10" id="sedan" autocomplete="off" value="মিথ্যা">
+						   	মিথ্যা
+						   </label>
+						</div>
+				</div>
+				<div class="text-center foot">
+					{{ form.submit(class='btn btn-outline-light') }}</div>
+			</div>
+			
+
+		</div>
+	</form>
+{% endblock %}

@@ -1,0 +1,92 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<style>
+		html, body {
+		  height: 100vh;
+		  overflow: hidden;
+      	  scroll-behavior: smooth;
+		  height: 100%;
+		  margin: 0;
+		}
+		
+		.ques {
+		  height: 100vh;
+		  scroll-snap-align: start;
+		  position: relative; 
+		}
+
+		
+		.result_section {
+			color:#d2dae2;
+		  overflow: auto;
+		  height: 100vh;
+		  background-color: #3c40c6;
+		   width: 100%;
+		}
+
+		#welcome {
+		  background-color: #5352ed;
+		}
+
+		#q1 {
+		  background-color: #1abc9c;
+		}
+		#q2 {
+		  background-color: #1e90ff;
+		}
+		#q3 {
+		  background-color: #e74c3c;
+		}
+		#q4 {
+		  background-color: #f39c12;
+		}
+		#q5 {
+		  background-color: #3498db;
+		}
+		#q6 {
+		  background-color: #c0392b;
+		}
+		#q7 {
+		  background-color: #8e44ad;
+		}
+		#q8 {
+		  background-color: #27ae60;
+		}
+		#q9 {
+		  background-color: #d35400;
+		}
+		#q10 {
+		  background-color: #2ecc71;
+		}
+		.foot {
+		   position: absolute;
+		   left: 0;
+		   bottom: 0;
+		   width: 100%;
+		   color: white;
+		   text-align: center;
+		   padding-bottom: 10px; 
+		}
+		.center {
+		  font-size: 200%;
+		  position: absolute;
+		  left: 50%;
+		  top: 50%;
+		  transform: translate(-50%, -50%);
+		  color: white;
+		}
+	</style>
+</head>
+
+
+
+<body>
+	{% block content %}{% endblock %}
+</body>
+</html>

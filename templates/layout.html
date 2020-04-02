@@ -62,7 +62,7 @@
 		  background-color: #d35400;
 		}
 		#q10 {
-		  background-color: #2ecc71;
+		  background-color: #5f27cd;
 		}
 		.foot {
 		   position: absolute;
@@ -81,7 +81,33 @@
 		  transform: translate(-50%, -50%);
 		  color: white;
 		}
+		@media only screen and (max-width: 1000px) {
+		.center {
+			padding-bottom: 500px;
+		}
+		.foot {
+		   position: absolute;
+		   left: 0;
+		   bottom: 0;
+		   width: 100%;
+		   color: white;
+		   text-align: center;
+		   padding-bottom: 30%; 
+		}
+		html{
+			font-size: 200%;
+		}
+
+		
+		.result_section {
+			padding-bottom: 20%;
+		}
+
+		}
 	</style>
+
+	<title>COVID-19 | Questionnaire</title>
+	<link rel="icon" href="{{ url_for('static', filename='Hopstarter-Malware-Malware.ico') }}" type="image/icon type">
 </head>
 
 
